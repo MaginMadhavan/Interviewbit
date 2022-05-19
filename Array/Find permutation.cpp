@@ -15,7 +15,7 @@ vector<int> Solution::findPerm(const string A, int B) {
             l--;
         }
     }
-    if(A[A.size()-1]=='D')v.push_back(s);
-    else v.push_back(l);
+    
+    v.push_back(l);
     return v;
 }
